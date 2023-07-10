@@ -1,0 +1,89 @@
+.finalResume-container {
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    .resume {
+         width: 35%;
+         min-height: 700px;
+         border: none;
+         border-radius: 1px;
+         border: 0.2px solid rgba(10, 10, 10, 0.1);
+         box-shadow: 0px 3px 2px 0;
+
+         .resume-header {
+              padding-top: 5px;
+              display: flex;
+              justify-content: space-around;
+              padding-bottom: 5px;
+              border-bottom: 1px solid black;
+              background-color: rgba(255, 255, 255, 0.2);
+
+              img {
+                   width: 90px;
+                   height: 90px;
+
+                   object-fit: contain;
+              }
+         }
+
+         .resume-personal-details {
+              height: 60px;
+              font-size: 15 px;
+              color: white;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-around;
+              border-bottom: 1px solid black;
+              background-color: rgb(129, 122, 122);
+         }
+
+         .resume-body {
+              height: 80%;
+              display: flex;
+
+
+              .resume-body-left {
+                   height: 98%;
+                   width: 30%;
+                   background-color: rgb(178, 178, 236);
+                   padding-left: 25px;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: space-between;
+
+
+                   .resume-body-skills {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3px;
+                        text-align: left;
+                   }
+
+                   .resume-body-objective {
+                        height: 70%;
+                        text-align: left;
+
+                   }
+              }
+
+              .resume-body-right {
+                   width: 70%;
+                   background-color: rgba(255, 254, 254, 0.2);
+                   text-align: left;
+                   padding-left: 15px;
+                   display: flex;
+                   flex-direction: column;
+                   flex-wrap: wrap;
+                   gap: 3px;
+
+
+              }
+         }
+    }
+}

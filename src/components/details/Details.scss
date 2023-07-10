@@ -1,0 +1,143 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/84/31/w0Lz9A.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+
+}
+
+
+input {
+    width: 270px;
+    height: 26px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+  }
+  label{
+    color: white;
+  }
+  h3{
+    color: white;
+  }
+  
+  .form2-container {
+    width: 55%;
+    height: 800px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3px;
+    // background-color: rgba(123, 142, 228, 0.2);
+    // border-color: rgba(201, 236, 236,0.3);
+    //       border-style: outset;
+    //       padding:5px;
+    background-color: rgb(5, 5, 62);
+  
+    .form2-aboutYou {
+      margin-bottom: 2px;
+      width: 80%;
+      display: flex;
+      gap: 70px;
+      justify-content: center;
+  
+  
+      .form2-aboutYou-part1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+       
+      }
+  
+      .form2-aboutYou-part2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+      }
+  
+      .form2-aboutYou-part3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+        .icon-fileUpload {
+          border: 1px solid #ccc;
+          display: inline-block;
+          padding: 3px 2px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .otherDetails {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 70px;
+      margin: 2px 0 0 0;
+  
+  
+      .otherDetails-education-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+  
+  
+        .otherDetails-education {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          margin-bottom: 10px;
+  
+          border-color: rgba(201, 236, 236, 0.3);
+          border-style: outset;
+          padding: 5px
+        }
+      }
+  
+      .otherDetails-skills-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+  
+        .otherDetails-skills {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          margin-bottom: 10px;
+          border-color: rgba(201, 236, 236, 0.3);
+          border-style: outset;
+          padding: 5px
+        }
+      }
+  
+      .otherDetails-experience-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+  
+        .otherDetails-experience {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          margin-bottom: 10px;
+          border-color: rgba(201, 236, 236, 0.3);
+          border-style: outset;
+          padding: 5px
+        }
+      }
+  
+    }
+  
+  }
